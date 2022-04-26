@@ -1,6 +1,6 @@
-from data.ISO_example import *
-from data.daily_example import CharCode, NumCode
-from asserts import *
+from cbrf_task.data.ISO_example import *
+from cbrf_task.data.daily_example import CharCode, NumCode
+from cbrf_task.asserts import *
 
 def test_check():
     response1 = requests.get('http://www.cbr.ru/scripts/XML_daily.asp')
